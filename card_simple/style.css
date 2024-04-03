@@ -4,4 +4,46 @@
 
 body {
     margin: 0;
+    background-color: rgb(23, 13, 45); /*space blue violett*/
+}
+
+#wrapper {
+
+}
+
+.card {
+    height: 400px;
+    width: 285px;
+    background-color: rgb(255, 255, 240);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.card-content{
+    border: 2px solid #222;
+    height: 100%;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 4fr 1fr 1fr 1fr 1fr;
+}
+
+.card-title {
+    grid-column: span 3;
+}
+
+.rocket-image {
+    grid-column: span 4;
+    max-width: 100%;
+    max-height: 170px;
+}
+
+.rocket-image img{ /*bedeutet das img innehalb der rocket-image div*/
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.rocket-info {
+    grid-column: span 3;
 }

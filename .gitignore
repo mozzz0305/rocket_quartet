@@ -1,6 +1,5 @@
 card_simple/vorlage.png
+card_simple/data/rocket_data.xlsx
 
-
-# toller comment
 # wenn schon mal commit ist es schwierig es danach zu ignore hinzuzufügen
 # card_simple würde den ganze Ordner zu gitignore hinzufügen (-> wird nicht mit hichgeladen)
