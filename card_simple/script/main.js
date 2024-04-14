@@ -4,38 +4,28 @@ $(document).ready(function () {
         const card =
             $(`<div class="card">
         <div class="card-content">
-            <div class="card-number">${rocket.group_letter}${rocket.number}</div>
+            <div class="card-number">
+            <p>${rocket.group_letter}${rocket.number}</p>
+            </div>
             <div class="card-title">
-                <div class="card-name">Voyager 1</div>
-                <div class="card-group">Probes</div>
+                <div class="card-name">${rocket.name}</div>
+                <div class="card-group">${rocket.group}</div>
             </div>
     
             <div class="rocket-image">
                 <img src="images/voyager.webp" alt="Voyager 1">
             </div>
-            <div class="goal-icon">Goal</div>
-            <div class="rocket-info">Solar system exploration</div>
+            <div class="goal-icon"><p>Goal</p></div>
+            <div class="rocket-info"><p>${rocket.mission_goal}</p></div>
     
-            <div class="stat-icon">year built</div>
-            <div class="stat-value">1977</div>
+            <div class="stat-icon year"><p>Year built</p></div>
+            <div class="stat-value year m"><p>${rocket.year_built}</p></div>
     
-            <div class="stat-icon">mission duration</div>
-            <div class="stat-value">19000</div>
+            <div class="stat-icon duration"><p>Mission duration</p></div>
+            <div class="stat-value duration"><p>${rocket.mission_duration}</p></div>
     
-            <div class="stat-icon">max speed</div>
-            <div class="stat-value">62000</div>
+            <div class="stat-icon speed"><p>Max speed</p></div>
+            <div class="stat-value speed m"><p>${rocket.max_speed}</p></div>
     
-            <div class="stat-icon">max earth distance</div>
-            <div class="stat-value">22286000</div>
-    
-            <div class="stat-icon">development cost</div>
-            <div class="stat-value">250</div>
-    
-            <div class="stat-icon">weight</div>
-            <div class="stat-value">773</div>
-    
-        </div>
-    </div>`);
-        wrapper.append(card);
-    });
-});
+            <div class="stat-icon distance"><p>Max earth distance</p></div>
+           
