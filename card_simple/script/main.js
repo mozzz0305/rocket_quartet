@@ -28,4 +28,16 @@ $(document).ready(function () {
             <div class="stat-value speed m"><p>${rocket.max_speed}</p></div>
     
             <div class="stat-icon distance"><p>Max earth distance</p></div>
-           
+            <div class="stat-value distance"><p>${rocket.max_earth_distance}</p></div>
+    
+            <div class="stat-icon cost"><p>Development cost</p></div>
+            <div class="stat-value cost m"><p>${rocket.development_cost}</p></div>
+    
+            <div class="stat-icon weight"><p>Weight</p></div>
+            <div class="stat-value weight"><p>${rocket.weight}</p></div>
+    
+        </div>
+    </div>`);
+        wrapper.append(card);
+    });
+});
