@@ -13,7 +13,7 @@ $(document).ready(function () {
             </div>
     
             <div class="rocket-image">
-                <img src="images/voyager.webp" alt="Voyager 1">
+            <img src="Images2/${rocket.name}.jpg" alt="${rocket.name}">
             </div>
             <div class="goal-icon"><p>Goal</p></div>
             <div class="rocket-info"><p>${rocket.mission_goal}</p></div>

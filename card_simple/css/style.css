@@ -154,9 +154,8 @@ nav ul a {
     padding-right: 5px;
 }
 
-.stat-icon:hover,
 .stat-value:hover {
-    background-color: rgb(220, 220, 199);
+    background-color: rgb(235, 235, 220);
 }
 
 .stat-value {
